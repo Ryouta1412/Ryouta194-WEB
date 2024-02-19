@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.pinimg.com/564x/9f/bf/a3/9fbfa33d37cb8fbf9e81b31b62331ba4.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 10px 0 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.social-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #ff0000;
+    background-color: #007bff;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-button:hover {
+    background-color: #0056b3;
+}
+
+.instagram {
+    background-color: #40e49d; /* Warna Instagram */
+}
+
+.instagram:hover {
+    background-color: #6835c1; /* Warna Instagram saat di-hover */
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 0 20px;
+}
+
+article h2 {
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #9b1010;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8em;
+}
